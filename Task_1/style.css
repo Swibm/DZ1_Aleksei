@@ -1,0 +1,99 @@
+﻿body {
+    background-color: #e7e9eb;
+    font-family: "Lato", sans-serif;
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-sign-in {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #f1f1f1;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+
+  form h2 {
+    font-weight: 400;
+  }
+  
+  /* Full-width inputs */
+  input {
+    width: px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  #username-field {
+    margin-left: 60px;
+  }
+
+.btn-login {
+    background-color: #ffc839;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 300px;
+  }
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.img-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+}
+
+.hide_pass {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 10px;
+
+}
+
+.hide_pass:hover {
+  cursor: pointer;
+}
+
+#username-field {
+  width: 240px;
+}
+#password-field {
+  width: 240px;
+}
